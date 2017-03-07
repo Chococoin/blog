@@ -1,0 +1,80 @@
+header {
+	background: url(BlueComputer.jpeg);
+	height: 17.8em;
+	width: 100%;
+	position: relative;
+}
+
+header h1 {
+	font-size: 5em;
+	color: #C1BDB3;
+	text-align: center;
+}
+
+header h2 {
+	font-size: 3em;
+	color: #C1BDB3;
+	font-style: italic;
+	text-align: center;
+}
+
+header h3 {
+	font-size: 2em;
+	color: #C1BDB3;
+	text-align: center;
+}
+
+#title {
+	position: relative;
+	background-color: rgba(1, 2, 58,0.6);
+	margin: 0 auto;
+	padding: 1.2em;
+	width: 34em;
+	top: 2em;
+	border-radius: 50px;
+	text-shadow: -4px 4px 5px rgba(0, 0, 0, 0.8);
+	/*font-family: Arial;*/
+}
+
+nav {
+	background-color: #5F5B6B;
+	position: absolute;
+	bottom: -2.5em;
+	margin: 0 auto;
+	width: 100vw;
+	padding: 0.2em;
+	display: none;
+	font-family: futura, sans-serif;
+	text-transform: capitalize;
+}
+
+header:hover nav {
+	display: inline;
+}
+
+header:hover #title {
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0.5em;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 1.2em;
+	margin: 1em auto;
+	color: #CFEFEF;
+}
+
+.post h1 {
+	display: none;
+}
+
+.post h2 {
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0.6em;
+}
